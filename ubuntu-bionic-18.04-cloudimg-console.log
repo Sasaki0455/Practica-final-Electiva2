@@ -580,7 +580,9 @@ Welcome to [1mUbuntu 18.04.6 LTS[0m!
 [  612.717856] cloud-init[901]: ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
 [  612.728021] cloud-init[901]: ci-info: |   4   |   ff00::/8  |    ::   |   enp0s3  |   U   |
 [  612.738779] cloud-init[901]: ci-info: +-------+-------------+---------+-----------+-------+
-[  617.461229] cloud-init[901]: Generating public/private rsa key pair.
+
+
+[  617.461229] cloud-init[901]: Generating public/private rsa key pair.
 [  617.477573] cloud-init[901]: Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
 [  617.496373] cloud-init[901]: Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
 [  617.522361] cloud-init[901]: The key fingerprint is:
@@ -714,7 +716,8 @@ Reached target Basic System.
 [[0;32m  OK  [0m] Started Authorization Manager.
 [[0;32m  OK  [0m] Started Accounts Service.
 [[0;32m  OK  [0m] Started Virtualbox guest utils.
-
+
+
 Ubuntu 18.04.6 LTS ubuntu-bionic ttyS0
 
 ubuntu-bionic login: [  643.065375] cloud-init[1459]: Cloud-init v. 23.1.2-0ubuntu0~18.04.1 running 'modules:config' at Tue, 06 Aug 2024 05:05:48 +0000. Up 639.36 seconds.
